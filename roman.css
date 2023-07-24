@@ -1,0 +1,60 @@
+body{
+    text-align:center;
+    background-image: url(clock-seamless-background-with-roman-numerals-vector-19981059.jpg);
+    font-family: 'Quattrocento', serif;
+    display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+   
+.container{
+    position: relative;
+    width:500px;
+    min-height:500px;
+    background-color: rgba(250, 235, 215,0.4);
+    border-radius: 10px;
+    
+}
+h2{
+    color:rgb(117, 68, 68);
+    letter-spacing:1px;
+    font-size:2em;
+    margin:10px;
+    padding:12px;
+    font-weight: bold;
+}
+#numberinput,#result{
+    width: 80%;
+    height:30px;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: bolder;
+    font-size:150px;
+    margin:30px;
+    background-color: rgba(250, 235, 215,0.8);
+    border: none;
+    outline:none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    border:1px solid rgba(255,255,255,0.5);
+    border-right:1px solid rgba(255,255,255,0.2);
+    border-right:1px solid rgba(255,255,255,0.2);
+    font-size:16px;
+    letter-spacing: 1px;
+    box-shadow:0 15px 15px rgba(0,0,0,0.5)
+    
+}
+.button{
+    width: 40%;
+    margin:5%;
+    background-color:rgba(156, 92, 92);
+    color:white;
+    border: none;
+    outline:none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size:20px;
+    letter-spacing: 1px;
+    box-shadow:0 15px 15px rgba(0,0,0,0.5)
+    
+}
